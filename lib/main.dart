@@ -33,6 +33,15 @@ class App extends StatelessWidget {
                     fontWeight: FontWeight.w400,
                   ),
                 ),
+                Text(
+                  'Software Engineer',
+                  style: TextStyle(
+                    color: Colors.teal.shade100,
+                    fontSize: 25,
+                    fontWeight: FontWeight.w400,
+                    letterSpacing: 2.5,
+                  ),
+                ),
               ],
             ),
           ),
