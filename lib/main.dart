@@ -17,6 +17,13 @@ class App extends StatelessWidget {
               mainAxisSize: MainAxisSize.max,
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                CircleAvatar(
+                  maxRadius: 100.0,
+                  backgroundImage: AssetImage('images/me.png'),
+                ),
+                SizedBox(
+                  height: 30,
+                ),
                 Text(
                   'Rafał Tchórzewski',
                   style: TextStyle(
