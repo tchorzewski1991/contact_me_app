@@ -7,8 +7,17 @@ void main() {
 class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Text('Contact me app'),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        body: SafeArea(
+          child: Column(
+            children: [
+              Text('Contact me app'),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }
