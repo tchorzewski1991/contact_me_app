@@ -10,6 +10,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        backgroundColor: Colors.teal,
         body: SafeArea(
           child: Column(
             children: [
