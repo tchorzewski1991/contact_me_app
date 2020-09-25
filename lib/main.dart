@@ -12,18 +12,22 @@ class App extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-          child: Column(
-            children: [
-              Text(
-                'Rafał Tchórzewski',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontFamily: 'ArchitectsDaughter',
-                  fontSize: 30,
-                  fontWeight: FontWeight.bold,
+          child: Center(
+            child: Column(
+              mainAxisSize: MainAxisSize.max,
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  'Rafał Tchórzewski',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontFamily: 'ArchitectsDaughter',
+                    fontSize: 30,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
         ),
       ),
