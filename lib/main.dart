@@ -14,7 +14,15 @@ class App extends StatelessWidget {
         body: SafeArea(
           child: Column(
             children: [
-              Text('Contact me app'),
+              Text(
+                'Rafał Tchórzewski',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontFamily: 'ArchitectsDaughter',
+                  fontSize: 30,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
             ],
           ),
         ),
