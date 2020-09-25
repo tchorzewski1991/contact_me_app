@@ -21,9 +21,9 @@ class App extends StatelessWidget {
                   'Rafał Tchórzewski',
                   style: TextStyle(
                     color: Colors.white,
-                    fontFamily: 'ArchitectsDaughter',
-                    fontSize: 30,
-                    fontWeight: FontWeight.bold,
+                    fontFamily: 'Pacifico',
+                    fontSize: 35,
+                    fontWeight: FontWeight.w400,
                   ),
                 ),
               ],

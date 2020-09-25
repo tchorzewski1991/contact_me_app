@@ -22,6 +22,6 @@ flutter:
   uses-material-design: true
 
   fonts:
-    - family: ArchitectsDaughter
+    - family: Pacifico
       fonts:
-        - asset: fonts/ArchitectsDaughter-Regular.ttf
+        - asset: fonts/Pacifico-Regular.ttf
